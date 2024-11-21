@@ -1,0 +1,146 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.upperStrip1 {
+  height: fit-content;
+  padding: 0px;
+}
+
+.imgLogo {
+  height: 100px;
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 10px;
+  color: rgb(9, 9, 169);
+}
+
+.language {
+  font-size: 24px;
+}
+
+.imgLogo1 {
+  height: 400px;
+}
+
+.Lower {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardDiv {
+  background-color: rgb(235, 246, 246);
+  border-radius: 20px;
+  min-height: 400px;
+  min-width: 300px;
+  height: 550px;
+  width: 470px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.headingLogin {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.formControl {
+  height: 60px;
+}
+
+.btnB {
+  font-size: 18px !important;
+}
+
+.card1 {
+  background-color: rgb(242, 240, 240);
+  padding-inline: 30px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.para {
+  font-size: 14px;
+}
+
+.logoImage {
+  height: 100px;
+}
+
+.accountCard {
+  width: 150px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .imgLogo {
+    height: 50px;
+    padding-left: 20px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .imgLogo1 {
+    display: none; /* Hide the logo image on smaller screens */
+  }
+
+  .Lower {
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center;
+  }
+
+  .cardDiv {
+    width: 100%; /* Take full width on smaller screens */
+    height: auto; /* Adjust height based on content */
+    margin-right: 0;
+    padding: 15px;
+  }
+
+  .headingLogin {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .formControl {
+    height: 50px; /* Adjust input height */
+  }
+
+  .btnB {
+    font-size: 16px; /* Adjust button font size */
+  }
+
+  .card1 {
+    padding-inline: 20px; /* Reduce padding */
+  }
+
+  .para {
+    font-size: 12px; /* Adjust text size */
+  }
+}
