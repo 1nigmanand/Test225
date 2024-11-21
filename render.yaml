@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: Test225
+    env: static
+    static_publish_dir: ./build
+    routes:
+      - type: rewrite
+        source: /:path*
+        destination: /index.html
