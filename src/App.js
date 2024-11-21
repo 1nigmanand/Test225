@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Correct imports
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';  // Correct imports
 import Main from './components/main';  // Main page component
 import RefundAndCancellation from './components/refund';  // Refund and Cancellation page component
 import Contact from './components/contact';  // Contact page component
